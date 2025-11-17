@@ -13,15 +13,15 @@ function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="p-6 bg-dark-secondary rounded-lg">
             <h3 className="text-xl font-semibold mb-4">Eco-Friendly</h3>
-            <p className="text-gray-400">Zero emissions for a cleaner future</p>
+            <p className="text-gray-400">Dapat mengurangi populasi udara yang tidak baik yang di sebabkan oleh asap-asap kendaraan dengan bahan bakar fosil</p>
           </div>
           <div className="p-6 bg-dark-secondary rounded-lg">
             <h3 className="text-xl font-semibold mb-4">Cost-Effective</h3>
-            <p className="text-gray-400">Lower maintenance and running costs</p>
+            <p className="text-gray-400">Menghemat energi dan sumber daya alam</p>
           </div>
           <div className="p-6 bg-dark-secondary rounded-lg">
             <h3 className="text-xl font-semibold mb-4">Performance</h3>
-            <p className="text-gray-400">Instant torque and smooth acceleration</p>
+            <p className="text-gray-400">Mobil listrik ini juga tidak kalah saing dengan mobil-mobil psdsa umumnya </p>
           </div>
         </div>
       </motion.section>

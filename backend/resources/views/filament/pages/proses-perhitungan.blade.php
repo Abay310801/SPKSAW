@@ -14,7 +14,7 @@
             <tbody>
                 @foreach ($cars as $index => $car)
                     <tr class="odd:bg-white even:bg-gray-50">
-                        <td class="px-4 py-2 border border-gray-300">{{ 'A' . ($index + 1) }}</td>
+                        <td class="px-4 py-2 border border-gray-300">{{ 'ML' . ($index + 1) }}</td>
                         @foreach ($kriterias as $kriteria)
                             <td class="px-4 py-2 border border-gray-300">
                                 {{ $penilaianAlternatifMatrix[$car->id][$kriteria->id] ?? 'N/A' }}
@@ -41,7 +41,7 @@
             <tbody>
                 @foreach ($cars as $index => $car)
                     <tr class="odd:bg-white even:bg-gray-50">
-                        <td class="px-4 py-2 border border-gray-300">{{ 'A' . ($index + 1) }}</td>
+                        <td class="px-4 py-2 border border-gray-300">{{ 'ML' . ($index + 1) }}</td>
                         @foreach ($kriterias as $kriteria)
                             <td class="px-4 py-2 border border-gray-300">
                                 {{ $normalisasiMatrix[$car->id][$kriteria->id] ?? 'N/A' }}
@@ -73,7 +73,7 @@
                         $rankData = collect($ranking)->firstWhere('car_id', $car->id);
                     @endphp
                     <tr class="odd:bg-white even:bg-gray-50">
-                        <td class="px-4 py-2 border border-gray-300">{{ 'A' . ($index + 1) }}</td>
+                        <td class="px-4 py-2 border border-gray-300">{{ 'ML' . ($index + 1) }}</td>
                         @foreach ($kriterias as $kriteria)
                             <td class="px-4 py-2 border border-gray-300">
                                 {{ isset($normalisasiMatrix[$car->id][$kriteria->id])
